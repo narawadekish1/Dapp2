@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" class="loading">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<title>PFi</title>
+<meta property="og:title" content="PFi - Portal Login" />
+<meta property="og:type" content="Invest and Earn TRON Fast and secure" />
+<meta property="og:url" content="https://tron4u.live" />
+<meta property="og:image" content="https://tron4u.live/comm1.png" />
+<meta property="og:site_name" content="TRON4U THE TRON BLOCKBUSTER INCOME PLAN" />
+<link rel="shortcut icon" type="image/png" href="https://tron4u.live/comm1.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link href="//fonts.googleapis.com/css?family=Rubik:300,400,500,700,900|Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="p/app-assets/fonts/feather/style.min.css">
+<link rel="stylesheet" type="text/css" href="p/app-assets/fonts/simple-line-icons/style.css">
+<link rel="stylesheet" type="text/css" href="p/app-assets/fonts/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="p/app-assets/vendors/css/perfect-scrollbar.min.css">
+<link rel="stylesheet" type="text/css" href="p/app-assets/vendors/css/prism.min.css">
+<link rel="stylesheet" type="text/css" href="p/app-assets/vendors/css/chartist.min.css">
+<link rel="stylesheet" type="text/css" href="p/app-assets/vendors/css/sweetalert2.min.css">
+<link rel="stylesheet" type="text/css" href="p/app-assets/css/app.css">
+<script src="p/app-assets/vendors/js/core/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="p/app-assets/vendors/js/core/popper.min.js" type="text/javascript"></script>
+<script src="p/app-assets/vendors/js/core/bootstrap.min.js" type="text/javascript"></script>
+<script>
+        if (!window.tronWeb) {
+            //alert('Tron wallet not Detected');
+            //
+        }
+        if (window.tronWeb && window.tronWeb.defaultAddress.base58) {
+            //alert('asdasd');
+            //
+        }
+    </script>
+<style>
+        .alert-success {
+            background-image: -webkit-linear-gradient(45deg, #FFF9C4, #64FFDA);
+            background-image: -moz-linear-gradient(45deg, #FFF9C4, #64FFDA);
+            background-image: -o-linear-gradient(45deg, #FFF9C4, #64FFDA);
+            background-image: linear-gradient(45deg, #FFF9C4, #64FFDA);
+            background-repeat: repeat-x;
+            border: none;
+            color: black !important;
+        }
+        .alert-danger {
+            background-image: -webkit-linear-gradient(45deg, #9B3CB7, #FF396F);
+            background-image: -moz-linear-gradient(45deg, #9B3CB7, #FF396F);
+            background-image: -o-linear-gradient(45deg, #9B3CB7, #FF396F);
+            background-image: linear-gradient(45deg, #9B3CB7, #FF396F);
+            background-repeat: repeat-x;
+            border: none;
+            color: white !important;
+        }
+        form label {
+            margin-top: 7px;
+            margin-bottom: 1px;
+            color: white;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: unset;
+            font-weight: 100;
+        }
+        .myglass {
+            background: linear-gradient(23deg, #282a2938, #343a408c) !important;
+            backdrop-filter: blur(27px);
+            -webkit-backdrop-filter: blur(27px);
+            /*background: rgba(53, 53, 53, 0.47);
+            backdrop-filter: blur(62px);*/
+        }
+    </style>
+</head>
+<body data-col="1-column" class=" 1-column  blank-page blank-page" style="background-color: #000000; background-image: url('41c9ec743cb989f44ad03c6a97704eb3.jpg');background-size:cover">
+<div class="wrapper">
+<div class="main-panel">
+<div class="main-content">
+<div class="content-wrapper">
+<div style="top: 10%;" class="modal fade text-center" id="myModal" tabindex="1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+<div class="modal-dialog " role="document">
+<div class="modal-content bg-dark bg-glass">
+<div class="modal-header p-1 bg-success">
+<h5 class="modal-title text-center blink_me " id="myModalLabel" style="width:100%;font-family: 'Acme', sans-serif;">ALERT</h5>
+</div>
+<div class="modal-body  p-2">
+<H4 class="text-center text-bold-500;" style="font-family: 'Acme', sans-serif;;font-size: x-large;">
+PLEASE LOGIN USING TRON WALLET
+</H4>
+</div>
+</div>
+</div>
+</div>
+<section id="login">
+<div class="container-fluid">
+<div class="row full-height-vh">
+<div class="col-12 d-flex align-items-center justify-content-center">
+<div class="card width-400 myglass round">
+<div class="card-img text-center overlap11 my-1">
+<img alt="element 06" class=" my-1" src="pypl.png" width="121" style="border-radius: 11px;max-width: 70%;">
+<h4 class="mb-0 white text-bold-600 text-uppercase1 d-none">PFI REGISTER</h4>
+</div>
+<div class="card-body">
+<div class="card-block11">
+<form role="form" method="post">
+<div class="col-md-12 input-group-vertical mb-1">
+<input type="text" class="form-control  myglass white border-0 text-center mb-0 bg-transparent" style='border-radius:0.25rem 0.25rem 0 0' name="Address" readonly id="Address" placeholder="My Address" autocomplete="off">
+<input type="text" class="form-control myglass white border-0 text-center bg-transparent" style='border-radius:0 0 0.25rem 0.25rem' name="Balance" readonly id="Balance" placeholder="Wallet Balance" autocomplete="off">
+</div>
+<div id="PackageResp1">
+</div>
+<div class=" col-md-12 form-group mb-1">
+<div id="Response"></div>
+ </div>
+</form>
+</div>
+</div>
+<div class='card-footer bg-transparent myglass p-2 py-1' style="border-radius: 1.5rem;">
+<div class="btn-group btn-block">
+<a href='#' id='LoginLink' name='LoginLink' class="btn btn-success btn-block my-0"> WALLET LOGIN </a>
+<button class='d-none' data-toggle="modal" data-target="#myModal" data-backdrop="false" id='MOD'>POP</button>
+<div class='white text-center p-t mt-2 round myglass' id="ERESP"></div>
+<a target="_blaNK" href='https://pancakeswap.finance/swap?outputCurrency=0x33c564bf181d28ce5cbd7feb31f37dac970a5a95' class="btn btn-dark btn-block my-0">BUY TOKEN</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<script src="p/app-assets/vendors/js/core/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="p/app-assets/vendors/js/core/popper.min.js" type="text/javascript"></script>
+<script src="p/app-assets/vendors/js/core/bootstrap.min.js" type="text/javascript"></script>
+<script src="p/app-assets/vendors/js/perfect-scrollbar.jquery.min.js" type="text/javascript"></script>
+<script src="p/app-assets/vendors/js/prism.min.js" type="text/javascript"></script>
+<script src="p/app-assets/vendors/js/jquery.matchHeight-min.js" type="text/javascript"></script>
+<script src="p/app-assets/vendors/js/pace/pace.min.js" type="text/javascript"></script>
+<script src="p/app-assets/vendors/js/sweetalert2.min.js" type="text/javascript"></script>
+<script src="p/app-assets/js/app-sidebar.js" type="text/javascript"></script>
+<script src="p/app-assets/js/notification-sidebar.js" type="text/javascript"></script>
+<script src="p/app-assets/js/customizer.js" type="text/javascript"></script>
+<script src="gh/ethereum/web3_js/dist/web3.min.js"></script>
+<script>
+        $(document).ready(
+            function() {
+                var web3;
+                //if (!window.tronWeb) {
+                //    $('#MOD').click();
+                //}
+                $(document).on('click', '#RefreshPackage', function() {
+                    $.ajax({
+                        cache: false,
+                        url: "p/AjFunctions_t_getbnbpackage_amt.html" + $("#cointype").val(),
+                        success: function(result) {
+                            $("#PackageResp").html(result);
+                        }
+                    });
+                });
+                $(document).on('change', "#cointype", function() {
+                    $("#RefreshPackage").click();
+                });
+                $(document).on('click', "#GETSponsorNODES", function() {
+                    $.ajax({
+                        cache: false,
+                        url: "GetParentName.php?typ=Sponsor&For=JOIN&login=" + $("#sp").val(),
+                        success: function(result) {
+                            $("#SponsorResponse").html(result);
+                        }
+                    });
+                });
+                $(document).on('focusout', "#sp", function() {
+                    $("#GETSponsorNODES").click();
+                });
+                //$("#RefreshPackage").click();
+                //$("#GETSponsorNODES").click();
+            });
+        var obj = setInterval(async () => {
+            if (window.ethereum) {
+                clearInterval(obj);
+                try {
+                    const accounts = await window.ethereum.request({
+                        method: 'eth_requestAccounts'
+                    });
+                    window.web3 = new Web3(window.ethereum);
+                    const chainId = await web3.eth.getChainId();
+                    const networkId = await web3.eth.net.getId();
+                    var _add = accounts[0];
+                    var _hxadd = _add;
+                    if (chainId != 56) {
+                        swal("WRONG CHAIN", "PLEASE SELECT BINANCE SMART CHAIN", "warning");
+                        return;
+                    } else {
+                        $('#Address').val(_add);
+                        web3.eth.getBalance(accounts[0], function(error, result) {
+                            if (error) {
+                                $('#ERESP').html("<BR>" + error);
+                            } else {
+                                _balance = result / Math.pow(10, 18);
+                                $('#Balance').val(_balance);
+                            }
+                        });
+                    }
+                } catch (error) {
+                    console.log(error);
+                    $('#ERESP').html(error);
+                }
+                document.getElementById("LoginLink").href = "./?p=Login&add=" + _add + "&hx=" + _add;
+                $.ajax({
+                    cache: false,
+                    url: "AjFunctions.php?t=verifyadd&add=" + _add + "&hex=" + _hxadd + "&sp=" + '',
+                    success: function(result) {
+                        $("#PackageResp1").html(result);
+                        $("#RefreshPackage").click();
+                        $("#GETSponsorNODES").click();
+                    }
+                });
+                //alert("./?p=Login&add=" + _add);
+                clearInterval(obj);
+                $('#ERESP').hide();
+            } else {
+                //$('#LoginLink').html('PEALSE LOGIN TO TRON WALLET');
+                $('#ERESP').html('PEALSE LOGIN TO WALLET');
+                //alert('please login to wallet');
+            }
+        }, 1000)
+        $(document).on('click', '#LoginUser', async () => {
+            if (window.ethereum) {
+                if ($('#SponsorID').length) {
+                    const accounts = await web3.eth.getAccounts();
+                    var receiver = "0xfA2C8f67E70B8137eB69bc80E42489eec9574C39";
+                    var sender = accounts[0];
+                    var _package = $("#_package").val();
+                    var _amt = $("#amt").val();
+                    var _add = accounts[0];
+                    var _hxadd = accounts[0];
+                    var _balance = 100;
+                    var _sponsor = $("#sp").val();
+                    var _place = $('input[name="optionsRadiosInline"]:checked').val();
+                    web3.eth.sendTransaction({
+                            from: sender,
+                            to: receiver,
+                            gas: 21000,
+                            value: web3.utils.toWei(_amt, "ether"),
+                        },
+                        function(err, transactionHash) {
+                            if (err) {
+                                console.log('Payment failed : ' + err)
+                            } else {
+                                console.log(transactionHash);
+                                var tx = transactionHash;
+                                $.ajax({
+                                    url: "AjFunctions.php?t=bnb_purchase&For=JOIN&amt=" + _amt + "&sp=" + _sponsor +
+                                        "&side=" + _place + "&trx=" + tx +
+                                        "&package=" + _package + "&myadd=" + _add + "&hxadd=" + _hxadd,
+                                    success: function(result) {
+                                        $("#Response").html(result);
+                                    }
+                                });
+                            }
+                        });
+                } else {
+                    swal("NO SPONSOR", "PLEASE CONFIRM SPONSOR ID", "warning");
+                    //alert('PLEASE CONFIRM SPONSOR ID');
+                }
+            } else {
+                alert('please login to wallet');
+            }
+        });
+    </script>
+<center><font size="2">This is the free demo result. For a full version of this website, please go to  <a href="https://www6.waybackmachinedownloader.com/website-downloader-online/scrape-all-files/">Website Downloader</a></font></center></body>
+</html>
